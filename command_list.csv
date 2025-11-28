@@ -1,0 +1,62 @@
+    1  man ls
+    2  help
+    3  ls
+    4  cd Git
+    5  % cd Git
+    6  cd Deesktop
+    7  cd Deesktop
+    8  cd Desktop
+    9  % cd Git
+   10  cd Git
+   11  clear
+   12  git config --global user.name "Nadolna"
+   13  git config --global user.email "tanya.nadolna@gmail.com"
+   14  git clone https://github.com/tanyanadolna-cpu/HW_10.git
+   15  cd HW_10
+   16  touch text_ignore.txt
+   17  nano .gitignore
+   18  nano .gitignore
+   19  nano .gitignore
+   20  nano .gitignore
+   21  nano .gitignore
+   22  nano .gitignore
+   23  git status
+   24  git rm --cached text_ignore.txt
+   25  git status
+   26  clear
+   27  ls
+   28  clear
+   29  git status
+   30  cd Git
+   31  cd Desktop
+   32  cd Git
+   33  ls
+   34  clear
+   35  git config --global user.name "Nadolna"
+   36  git config --global user.email tanya.nadolna@gmail.com
+   37  git clone https://github.com/tanyanadolna-cpu/HW_10.git
+   38  cd HW_10
+   39  touch text_ignore.txt
+   40  nano .gitignore
+   41  git status
+   42  git add
+   43  git add .
+   44  git add .gitignore
+   45  git commit -m "Add gitignore and ignore text_ignore.txt"
+   46  touch main_test.txt
+   47  git add .
+   48  git commit -m "Add empty main_test.txt file"
+   49  git checkout -b develop
+   50  touch develop_test.txt
+   51  git add .
+   52  git commit -m "Add develop_test.txt"
+   53  echo "just a small change">>
+   54  echo "just a small change" develop_test.txt
+   55  git status
+   56  git add
+   57  git add .
+   58  git commit -m "Update develop_test.txt"
+   59  git checkout main
+   60  git merge develop
+   61  git log --oneline --graph
+   62  history > command_list.csv
